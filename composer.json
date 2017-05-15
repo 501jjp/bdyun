@@ -1,0 +1,19 @@
+{
+    "name": "jjp/bdyun",
+    "type": "library",
+    "authors": [
+        {
+            "name": "501jjp",
+            "email": "694366391@qq.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GetUKID\\": "./uk_id",
+            "Root\\": "./"
+        }
+    }
+}
